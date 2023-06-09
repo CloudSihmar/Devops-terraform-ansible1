@@ -11,7 +11,7 @@ provider "aws" {
 region = "ap-south-1"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-0f8e81a3da6e2510a"
+  ami = "ami-01c9a84e1b49e17af"
   instance_type = "t2.micro"
   key_name = "san"
 
